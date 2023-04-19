@@ -1,0 +1,72 @@
+.box, .box2, .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin-bottom: 20px;
+    background-color: #d9ead3;
+    color: #000;
+  }
+  
+  #Zagrozacil, #Zagrozadost, #Zagrozaconf {
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px solid #8abb6f;
+    padding: 20px;
+    background-color: #eaf5e0;
+    color: #000;
+  }
+  
+  .table-wrapper {
+    margin: 20px;
+  }
+  
+  .fl-table {
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #eaf5e0;
+  }
+  
+  .fl-table td, th {
+    border: 1px solid #8abb6f;
+    padding: 8px;
+    text-align: left;
+    color: #000;
+  }
+  
+  .fl-table td {
+    background-color: #d9ead3;
+  }
+  
+  .fl-table th {
+    background-color: #8abb6f;
+    color: #fff;
+  }
+  
+  .fl-table th.mech {
+    width: 25%;
+  }
+  
+  .dbtn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dbtn .btn {
+    background-color: lightgreen;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 5px;
+  }
+  
+  .dbtn .btn:hover {
+    background-color: #90ee90;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  }
+  

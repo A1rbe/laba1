@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologies for investigating information security incidents</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="box">
+    <form id="Zagrozacil">
+      <div class="input-container">
+      <label for="input" class="text-center">Загроза цілісності:</label>
+      <input type="text" id="input" name="input"></div>
+      <div class="dbtn"><button type="submit" class="btn">Search</button></div>
+    </form>  
+  </div>
+  <div class="table-wrapper">
+    <table id="Table_zagcil" class="fl-table">
+      <thead>
+        <tr>
+          <th>Назва активу</th>
+          <th>Власник активу</th>
+          <th>Місце розташування</th>
+          <th>Категорія активу</th>
+          <th>Загроза</th>
+          <th>Джерело загрози</th>
+          <th class="mech">Механізм реалізації нападу</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>    
+  </div>
+  <!-- ZD -->
+  <div class="box2">
+    <form id="Zagrozadost">
+      <div class="input-container2">
+      <label for="input" class="text-center">Загроза доступності:</label>
+      <input type="text" id="input2" name="input"></div>
+      <div class="dbtn"><button type="submit" class="btn">Search</button></div>
+    </form>  
+  </div>
+  <div class="table-wrapper2">
+    <table id="Table_zagdost" class="fl-table">
+      <thead>
+        <tr>
+          <th>Назва активу</th>
+          <th>Власник активу</th>
+          <th>Місце розташування</th>
+          <th>Категорія активу</th>
+          <th>Загроза</th>
+          <th>Джерело загрози</th>
+          <th class="mech">Механізм реалізації нападу</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>    
+  </div>
+  <!-- ZC -->
+  <div class="box3">
+    <form id="Zagrozaconf">
+      <div class="input-container3">
+      <label for="input" class="text-center">Загроза конфеденційності:</label>
+      <input type="text" id="input3" name="input"></div>
+      <div class="dbtn"><button type="submit" class="btn">Search</button></div>
+    </form>  
+  </div>
+  <div class="table-wrapper3">
+    <table id="Table_zagconf" class="fl-table">
+      <thead>
+        <tr>
+          <th>Назва активу</th>
+          <th>Власник активу</th>
+          <th>Місце розташування</th>
+          <th>Категорія активу</th>
+          <th>Загроза</th>
+          <th>Джерело загрози</th>
+          <th class="mech">Механізм реалізації нападу</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>    
+  </div>
+  <script src="index.js"></script>
+  <script src="avaible.js"></script>
+  <script src="conf.js"></script>
+</body>
+
+</html>
